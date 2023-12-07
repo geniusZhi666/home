@@ -42,6 +42,7 @@ const weatherData = reactive({
 const getWeatherData = () => {
   // 获取地理位置信息
   if (!mainKey) {
+    console.log('xxxxxxxxxxxxxxxxxxx');
     getOtherWeather()
       .then((res) => {
         console.log(res);
