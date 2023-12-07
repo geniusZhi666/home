@@ -63,6 +63,7 @@ const getWeatherData = () => {
         onError("天气信息获取失败");
       });
   } else {
+    console.log('yyyyyyyyyyyyyyyyyyy');
     getAdcode(mainKey)
       .then((res) => {
         weatherData.adCode = {
