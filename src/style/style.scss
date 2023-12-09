@@ -48,6 +48,13 @@ p {
   src: url("/font/UnidreamLED.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: 'Streetwear'; 
+    font-display: swap;
+    src: url('/font/Streetwear.otf') format('opentype');
+}
+
+
 // 基础样式
 #app {
   position: fixed;
